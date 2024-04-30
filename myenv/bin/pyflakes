@@ -1,0 +1,8 @@
+#!/Users/suchi/Documents/twitter-clone-2de8aa99589e417a928a9049a81a5d03/myenv/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pyflakes.api import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
